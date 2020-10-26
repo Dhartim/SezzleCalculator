@@ -16,11 +16,11 @@ const App = React.memo(() => {
 
   React.useEffect(() => {
     client.onopen = () => {
-      console.log('Websocket client connected !!');
+      // console.log('Websocket client connected !!');
     };
     client.onmessage = (message) => {
       const dataFromServer = JSON.parse(message.data);
-      console.log('got reply !!' , dataFromServer);
+      // console.log('got reply !!' , dataFromServer);
       if(dataFromServer.type === "message")
       {
         const newEntry = {

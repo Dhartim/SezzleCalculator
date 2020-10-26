@@ -6,8 +6,8 @@ const UserLog = React.memo(({ expressionLog }) => {
     <div className="userLog">
       <ul>
         {
-          expressionLog.map(log =>
-          <li>
+          expressionLog.map((log, index) =>
+          <li key={index}>
             User: {log.user} &nbsp;&nbsp; Time: {log.time} &nbsp;&nbsp; Equation: {log.equation}
           </li>
         )}
