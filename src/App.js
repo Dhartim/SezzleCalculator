@@ -7,8 +7,8 @@ import UserLog from "./components/UserLog";
 import UserLogin from "./components/UserLogin";
 
 // const client = new W3CWebSocket('ws://127.0.0.1:8000');
-const host = 'http://www.sezzleserver.herokuapp.com';
-const client = new W3CWebSocket(host +'./ws');
+const host = 'ws://www.sezzleserver.herokuapp.com';
+const client = new W3CWebSocket(host);
 
 const App = React.memo(() => {
   const [result, setResult] = React.useState("");
