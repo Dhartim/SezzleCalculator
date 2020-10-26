@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d749a4e6c704166145df8ff397fc465c",
+    "revision": "5d5ae53b6f8f3716177dda14035d2456",
     "url": "/SezzleCalculator/index.html"
   },
   {
-    "revision": "a981e216d10749e1473c",
-    "url": "/SezzleCalculator/static/css/main.8646196c.chunk.css"
+    "revision": "4b7545df86f54f770a33",
+    "url": "/SezzleCalculator/static/css/main.dada247a.chunk.css"
   },
   {
     "revision": "5153402e6b3598f5177f",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SezzleCalculator/static/js/2.982a108e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a981e216d10749e1473c",
-    "url": "/SezzleCalculator/static/js/main.6ae50c0e.chunk.js"
+    "revision": "4b7545df86f54f770a33",
+    "url": "/SezzleCalculator/static/js/main.e4a42542.chunk.js"
   },
   {
     "revision": "00cc48c109fee7b500de",
