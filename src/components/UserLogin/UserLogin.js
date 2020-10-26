@@ -16,8 +16,8 @@ const UserLogin = React.memo(({ onSubmit }) => {
   }, [input, onSubmit]);
   return (
     <div className="u-form">
-      <input  className="u-input" type="text" placeholder="Please input a nick name" onChange={inputChange} value={input}/>
-      <button className="u-btn" onClick={onClick}>submit</button>
+      <input  className="u-input" type="text" placeholder="Please Enter your Name" onChange={inputChange} value={input}/>
+      <button className="u-btn" onClick={onClick}>Submit</button>
     </div>
   );
 });

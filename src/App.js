@@ -1,3 +1,4 @@
+/* eslint-disable no-eval */
 import React from 'react';
 import { w3cwebsocket as W3CWebSocket } from "websocket";
 import './App.css';
@@ -6,7 +7,6 @@ import KeyPadComponent from "./components/KeyPadComponent";
 import UserLog from "./components/UserLog";
 import UserLogin from "./components/UserLogin";
 
-// const client = new W3CWebSocket('ws://127.0.0.1:8000');
 const client = new W3CWebSocket('wss://sezzleserver.herokuapp.com');
 
 const App = React.memo(() => {
@@ -86,7 +86,7 @@ const App = React.memo(() => {
     return user ? (
         <div>
             <div className="calculator-body">
-                <h2>Sezzle Calculator Assessment</h2>
+                <h2 className="userLog-p">Sezzle Calculator Assessment</h2>
                 <ResultComponent result={result}/>
                 <KeyPadComponent onClick={onClick}/>
             </div>
