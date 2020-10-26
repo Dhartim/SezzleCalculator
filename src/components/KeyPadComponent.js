@@ -9,9 +9,9 @@ const KeyPadComponent = React.memo(props => {
     return (
         // {`button${ isOperator ? "" : " operator"}`}
         <div>
-            <button className="operator" name="(" onClick={e => onClick(e.target.name)}>(</button>
+            <button name="(" onClick={e => onClick(e.target.name)}>(</button>
             <button name="CE" onClick={e => onClick(e.target.name)}>CE</button>
-            <button className="operator" name=")" onClick={e => onClick(e.target.name)}>)</button>
+            <button name=")" onClick={e => onClick(e.target.name)}>)</button>
             <button name="C" onClick={e => onClick(e.target.name)}>C</button><br/>
 
 

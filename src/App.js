@@ -85,14 +85,16 @@ const App = React.memo(() => {
 
     return user ? (
         <div>
-            <div className="calculator-body">
-                <h2 className="userLog-p">Sezzle Calculator Assessment</h2>
-                <ResultComponent result={result}/>
-                <KeyPadComponent onClick={onClick}/>
-            </div>
-            <div className="userlog-wrapper">
+            <h2 className="userLog-p">Sezzle Calculator Assessment</h2>
+            <div>
+              <div className="calculator-body">
+                  <ResultComponent result={result}/>
+                  <KeyPadComponent onClick={onClick}/>
+              </div>
               <UserLog expressionLog={expressionLog} />
             </div>
+            
+            
         </div>
       ) : (
           <UserLogin onSubmit={setUser}/>

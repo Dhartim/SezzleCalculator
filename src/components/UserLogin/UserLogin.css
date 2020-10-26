@@ -3,7 +3,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #9ba4b4;
 }
 .u-input {
     height: 35px;
@@ -20,8 +19,8 @@
 .u-btn {
     box-shadow: none;
     border-radius: 5px;
-    background-color: #394867;
-    color: #fff;
+    background-color: #f1f6f9;
+    color: #000;
     cursor: pointer;
     font-family: arial,sans-serif;
     font-size: 15px;

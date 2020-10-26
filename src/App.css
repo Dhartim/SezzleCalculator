@@ -9,19 +9,14 @@
   background: #9ba4b4;
 }
 
-.calculator-wrapper{
+/* .calculator-wrapper{
   width: 400px;
   height: 600px;
-}
+} */
 
 .row {
   display: flex;
   width: 100%;
-}
-
-.userlog-wrapper{
-  width: 100%;
-  background-color: #EEEDE7;
 }
 
 button {
@@ -49,6 +44,14 @@ button {
 }
 
 .calculator-body {
-  max-width: 400px;
-  margin: auto;
+  /* max-width: 400px;
+  margin: auto; */
+  float: inline-start;
+  text-align: center;
+  margin-left: 30px;
+  padding-top: 15px;
+  width: 40%;
+  height: 500px;
+  padding-bottom: 10px;
+  border-radius: 20px;
 }
