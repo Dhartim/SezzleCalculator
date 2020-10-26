@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Dhartim/SezzleCalculator/static/css/main.8646196c.chunk.css",
+    "main.js": "/Dhartim/SezzleCalculator/static/js/main.9aaa21c1.chunk.js",
+    "main.js.map": "/Dhartim/SezzleCalculator/static/js/main.9aaa21c1.chunk.js.map",
+    "runtime-main.js": "/Dhartim/SezzleCalculator/static/js/runtime-main.04f7b19e.js",
+    "runtime-main.js.map": "/Dhartim/SezzleCalculator/static/js/runtime-main.04f7b19e.js.map",
+    "static/js/2.982a108e.chunk.js": "/Dhartim/SezzleCalculator/static/js/2.982a108e.chunk.js",
+    "static/js/2.982a108e.chunk.js.map": "/Dhartim/SezzleCalculator/static/js/2.982a108e.chunk.js.map",
+    "index.html": "/Dhartim/SezzleCalculator/index.html",
+    "precache-manifest.c27071153e54db665aff7a38bae83d2f.js": "/Dhartim/SezzleCalculator/precache-manifest.c27071153e54db665aff7a38bae83d2f.js",
+    "service-worker.js": "/Dhartim/SezzleCalculator/service-worker.js",
+    "static/css/main.8646196c.chunk.css.map": "/Dhartim/SezzleCalculator/static/css/main.8646196c.chunk.css.map",
+    "static/js/2.982a108e.chunk.js.LICENSE.txt": "/Dhartim/SezzleCalculator/static/js/2.982a108e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.04f7b19e.js",
+    "static/js/2.982a108e.chunk.js",
+    "static/css/main.8646196c.chunk.css",
+    "static/js/main.9aaa21c1.chunk.js"
+  ]
+}
