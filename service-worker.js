@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Dhartim/SezzleCalculator/precache-manifest.c27071153e54db665aff7a38bae83d2f.js"
+  "/Dhartim/SezzleCalculator/precache-manifest.8c8763f1aa467db58d2f4c8ba960bc0d.js"
 );
 
 self.addEventListener('message', (event) => {
