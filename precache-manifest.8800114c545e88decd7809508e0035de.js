@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "42fd78e66b764d0b6be4f4e7a63d8bbc",
+    "revision": "9f338d8d9475e2d4cc03bc5d864a41b4",
     "url": "/SezzleCalculator/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SezzleCalculator/static/css/2.2a86faee.chunk.css"
   },
   {
-    "revision": "35f24c4cf100278128e7",
-    "url": "/SezzleCalculator/static/css/main.33ca8d28.chunk.css"
+    "revision": "2457e5d5b1de72eeee89",
+    "url": "/SezzleCalculator/static/css/main.da6a6b95.chunk.css"
   },
   {
     "revision": "4d8cf6986c319e22ce21",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SezzleCalculator/static/js/2.f9083e08.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "35f24c4cf100278128e7",
-    "url": "/SezzleCalculator/static/js/main.959fcf77.chunk.js"
+    "revision": "2457e5d5b1de72eeee89",
+    "url": "/SezzleCalculator/static/js/main.c98280af.chunk.js"
   },
   {
     "revision": "00cc48c109fee7b500de",
