@@ -6,6 +6,7 @@ import ResultComponent from './components/ResultComponent';
 import KeyPadComponent from "./components/KeyPadComponent";
 import UserLog from "./components/UserLog";
 import UserLogin from "./components/UserLogin";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const client = new W3CWebSocket('wss://sezzleserver.herokuapp.com');
 
@@ -84,18 +85,38 @@ const App = React.memo(() => {
     }, [calculate, reset, backspace, result, setResult]);
 
     return user ? (
-        <div>
-            <h2 className="userLog-p">Sezzle Calculator Assessment</h2>
-            <div>
-              <div className="calculator-body">
-                  <ResultComponent result={result}/>
-                  <KeyPadComponent onClick={onClick}/>
-              </div>
-              <UserLog expressionLog={expressionLog} />
+        <div className="container-fluid">
+          <div className="row p-2 bg-dark">
+            <div className="col-12 text-center">
+              <h2 className="userLog-p text-white">Sezzle Calculator Assessment</h2>
             </div>
-            
-            
+          </div>
+          <div className="row pt-5">
+            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-4 col-xs-4 mb-4">
+              <div className="card h-100">
+                <ResultComponent result={result}/>
+                <KeyPadComponent onClick={onClick}/>
+              </div>
+            </div>
+            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-4 col-xs-4 mb-4">
+              <div className="card h-100">
+                <UserLog expressionLog={expressionLog} />
+              </div>
+            </div>
+          </div>
         </div>
+        // <div>
+        //     <h2 className="userLog-p navbar navbar-expand-lg navbar-light bg-light">Sezzle Calculator Assessment</h2>
+        //     <div>
+        //       <div className="calculator-body">
+        //           <ResultComponent result={result}/>
+        //           <KeyPadComponent onClick={onClick}/>
+        //       </div>
+        //       <UserLog expressionLog={expressionLog} />
+        //     </div>
+            
+            
+        // </div>
       ) : (
           <UserLogin onSubmit={setUser}/>
       );
