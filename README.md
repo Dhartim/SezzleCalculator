@@ -6,6 +6,13 @@ Demo: https://dhartim.github.io/SezzleCalculator/
 
 ## Tech Stack
 1. I have used websocket to broadcast message to everyone on the session who has joined.
-2. Used React for frontend with bootstrap and websocket server is deployed on heroku.
-3. 
+2. Used React for frontend with bootstrap to make it responsive.
+3. Websocket server is deployed on heroku.
+4. Server code can be found on this github repositiory: https://github.com/Dhartim/sezzleServer
+
+## How to Run Application
+1. Download code from this repository.
+2. Run ```npm install``` to install all dependencies.
+3. Once dependencies are install start application using ``` npm start ``` command.
+
 
