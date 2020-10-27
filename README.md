@@ -13,6 +13,6 @@ Demo: https://dhartim.github.io/SezzleCalculator/
 ## How to Run Application
 1. Download code from this repository.
 2. Run ```npm install``` to install all dependencies.
-3. Once dependencies are install start application using ``` npm start ``` command.
+3. Once dependencies are installed then start application using ``` npm start ``` command.
 
 
