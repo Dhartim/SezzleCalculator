@@ -1,6 +1,5 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import './UserLog.css';
 
 const UserLog = React.memo(({ expressionLog }) => {
   return (

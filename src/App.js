@@ -105,18 +105,6 @@ const App = React.memo(() => {
             </div>
           </div>
         </div>
-        // <div>
-        //     <h2 className="userLog-p navbar navbar-expand-lg navbar-light bg-light">Sezzle Calculator Assessment</h2>
-        //     <div>
-        //       <div className="calculator-body">
-        //           <ResultComponent result={result}/>
-        //           <KeyPadComponent onClick={onClick}/>
-        //       </div>
-        //       <UserLog expressionLog={expressionLog} />
-        //     </div>
-            
-            
-        // </div>
       ) : (
           <UserLogin onSubmit={setUser}/>
       );
