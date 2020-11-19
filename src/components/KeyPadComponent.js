@@ -2,10 +2,7 @@ import React from 'react';
 
 const KeyPadComponent = React.memo(props => {
     const { children, onClick } = props;
-
-    const isOperator = React.useMemo(() => {
-        return !isNaN(children) || children === '.' || children === '=';
-    }, [children]);
+    
     return (
         <div>
             <button className="btn btn-outline-secondary button-keys" name="(" onClick={e => onClick(e.target.name)}>(</button>
